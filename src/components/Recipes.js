@@ -1,3 +1,9 @@
+
+// import CelebratorDoppelbock from "../components/pdf/CelebratorDoppelbock.pdf";
+import {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBabyPils,ShabbyFest,StellaArtois} from "../components/pdf/index.js";
+
+
+
 function Recipes(){
     return(
         <div>
@@ -7,13 +13,16 @@ function Recipes(){
             <p>Clone recipes are educated guesses and imply no endorsement or participation by the original breweries.  Your results will vary.</p>
             <h3>Lagers</h3>
             <ul>
-                <li><a href='https://jonshomebrew.com/wp-content/uploads/2019/03/ANCHOR-STEAM-CLONE.pdf'>Anchor Steam</a></li>
-                <li><a href='https://jonshomebrew.com/wp-content/uploads/2020/06/CELEBRATOR-DOPPELBOCK.pdf'>Celebrator Doppelbock</a></li>
-                <li>*HutchWeizer</li>
-                <li>*Meisterburger</li>
-                <li>*Pils Baby Pils</li>
-                <li>*Shabby Fest</li>
-                <li>Stella Artois</li>
+                <li>
+                <a href={CelebratorDoppelbock} without rel="noopener noreferrer" target="_blank"> CelebratorDoppelbock </a>
+                </li>
+                <li>
+                <a href={AnchorSteam} without rel="noopener noreferrer" target="_blank"> AnchorSteam </a>
+                </li>
+                {/* <li>
+                <a href={ShabbyFest} without rel="noopener noreferrer" target="_blank"> Hutchweizer </a>
+                </li> */}
+                
             </ul>
         </div>
     )

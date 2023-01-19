@@ -1,3 +1,6 @@
+
+import Badge from 'react-bootstrap/Badge'
+
 function Contact(){
 
     return(
@@ -8,7 +11,12 @@ function Contact(){
         <p>Phone:  253-286-7607</p>
         <p>Email: <a href='jon@jonshomebrew.com'>jon@jonshomebrew.com</a> </p>
         <p>Orders: <a href='jon@jonshomebrew.com'>Order Now</a> </p>
-
+        <h1>
+    Example heading{' '}
+    <Badge bg="secondary" as="Button">
+      New
+    </Badge>
+  </h1>
         </div>
     )
 }

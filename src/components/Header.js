@@ -12,16 +12,22 @@ function Header(){
    
     return(
         // <div>Hi</div>
-        <>
-        <nav>
         
-          <p><Link to="/">Home</Link></p>
+      <div class='header'>
+        <>
+        <ul class = 'nav nav-tabs text '>
+          <li role="presentation" class="active"><Link to="/">Home</Link></li>
+          <li role="presentation"><Link to="/about">About</Link></li>
+          <li role="presentation"><Link to="/shop">Shop</Link></li>
+          <li role="presentation"><Link to="/contact">Contact/Hours</Link></li>
+          <li role="presentation"><Link to="/recipes">Recipes</Link></li>
+        </ul>
+          {/* <p><Link to="/">Home</Link></p>
           <p><Link to="/about">About</Link></p>
           <p><Link to="/shop">Shop</Link></p>
           <p><Link to="/contact">Contact/Hours</Link></p>
           <p><Link to="/recipes">Recipes</Link></p>
-        
-      </nav>
+       */}
 
         <Routes>
           {/* <Route index element={<Home />} /> */}
@@ -32,40 +38,8 @@ function Header(){
           <Route path="/"  element={<Home />}>
         </Route>
       </Routes>
-        </>
-      
-    
-        // <Router>
-        //     <div>
-        //     <nav>
-        //   <ul>
-        //     {/* <li>
-        //       <Link to="/">Home</Link>
-        //     </li> */}
-        //     <li>
-        //       <Link to="/about">About</Link>
-        //     </li>
-        //     <li>
-        //       <Link to="/shop">shop</Link>
-        //     </li>
-        //   </ul>
-        // </nav>
-
-        // <Switch>
-        //   <Route path="/about">
-        //     <About />
-        //   </Route>
-        //   <Route path="/shop">
-        //     <Shop />
-        //   </Route>
-        //   {/* <Route path="/">
-        //     <App />
-        //   </Route> */}
-        // </Switch>
-
-        // </div>
-        // </Router>
-        
+        </> 
+      </div>
     )
 }
 
