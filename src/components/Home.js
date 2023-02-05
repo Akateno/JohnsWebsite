@@ -4,19 +4,21 @@ import National from '../NationalHomeBrew.png';
 import WineMaker from '../WineMaker.jpeg';
 import Cascade from '../CascadeGuild.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import YoutubeEmbed from "./YoutubeEmbed";
 
 
 
 function Home() {
     return (
-        <div>
-            <img class ='logo' src={jlogo} alt ="website logo"></img>
+        <div className='homeContainer'>
+            {/* <img class ='logo' src={jlogo} alt ="website logo"></img>
             {/* <h1>Jon's Homewbrew and Wine Supply</h1> */}
-            <h4 class="text-center">1430 E Main Ave #1430C Puyallup WA 98372</h4>
-            <h4 class = "text-center">Call us!: 253-286-7607</h4>
-
-            <div>
+            {/* <h4 class="text-center">1430 E Main Ave #1430C Puyallup WA 98372</h4>
+            <h4 class = "text-center">Call us!: 253-286-7607</h4>  */}
             
+            <div class ='wrapper'>
+            <YoutubeEmbed embedId="s9WgjG2248E" class="home1"/>
+            <YoutubeEmbed embedId="SQJ_xFjewvc" class="home2"/>
             </div>
 
 
@@ -24,7 +26,7 @@ function Home() {
             <div class='container'>
                 <div class="">
 
-                    <h3>Competitions</h3>
+                    <h2>Competitions</h2>
                     <div class="SheBrewLogo">
                          {/* <img class ='image' src={SheBrewLogo} alt ="SheBrewLogo" ></img> */}
                      </div>

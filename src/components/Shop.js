@@ -1,6 +1,12 @@
+import inventory from '../inventory.json'
+
 function Shop() {
     return (
-        <div>Shop</div>
+        <div>{inventory.ingridients.map(int => {return (
+
+            <div>{int.name} </div>
+
+        )})}</div>
     )
   }
 

@@ -5,6 +5,7 @@ import About from './About'
 import Shop from './Shop'
 import Recipes from './Recipes'
 import Home from './Home'
+import Posts from './Posts'
 function Header(){
 
 
@@ -13,14 +14,15 @@ function Header(){
     return(
         // <div>Hi</div>
         
-      <div class='header'>
+      <div class='header '>
         <>
-        <ul class = 'nav nav-tabs text '>
-          <li role="presentation" class="active"><Link to="/">Home</Link></li>
+        <ul class = 'nav nav-tabs'   >
+          <li role="presentation" ><Link to="/">Home</Link></li>
           <li role="presentation"><Link to="/about">About</Link></li>
           <li role="presentation"><Link to="/shop">Shop</Link></li>
           <li role="presentation"><Link to="/contact">Contact/Hours</Link></li>
           <li role="presentation"><Link to="/recipes">Recipes</Link></li>
+          <li role="presentation"><Link to="/Posts">Blog</Link></li>
         </ul>
           {/* <p><Link to="/">Home</Link></p>
           <p><Link to="/about">About</Link></p>
@@ -35,6 +37,7 @@ function Header(){
           <Route path="/shop"  element={<Shop />} />
           <Route path="/contact"  element={<Contact />} />
           <Route path="/recipes"  element={<Recipes />} />
+          <Route path="/posts"  element={<Posts />} />
           <Route path="/"  element={<Home />}>
         </Route>
       </Routes>

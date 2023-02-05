@@ -12,7 +12,7 @@ code {
     monospace;
 }
 .header{
-  padding-top: 1%;
+  
   margin:auto; 
 }
 .logo{
@@ -24,6 +24,7 @@ code {
 }
 
 .container {
+  padding-top: 15%;
   display: flex;
   
   
@@ -39,6 +40,92 @@ code {
   flex-grow:0;
   flex-shrink:0;
 }
+.wrapper { 
+  padding-top: 3%;
+  display:flex;
+  justify-content: space-around;
+  
+} 
+.video{
+  width: 150%;
+  height:150%;
+  overflow: visible;
+}
+
+.homeContainer{
+  background-color: #F6c101;
+}
+.aboutContainer{
+  padding-top: 5%;
+  padding-right: 10%;
+  background-image: ("wood.png");
+}
+.video{
+  border-radius: 3%;
+  border-style: solid;
+  border-color: whitesmoke;
+}
 
 
 
+
+.mapContainer{
+  margin:auto;
+  max-width: 50%;
+}
+
+.pin-icon {
+  color:red;
+  font-size: 30px;
+} 
+
+/* Blog CSS */
+.card{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 50%;
+  margin: auto;
+  width:50%;
+  
+}
+.card-body{
+  overflow: auto;
+}
+.card-text{
+  height:400px;
+  width:fit-content;
+  border:1px solid #ccc;
+  font:16px/26px Georgia, Garamond, Serif;
+  overflow:auto;
+  resize: both;
+}
+
+
+
+
+
+
+
+
+/* About CSS */
+.johnImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .aboutPage{
+
+} */
+
+/* .wrapper{
+   border-style: dotted;
+}
+.container{
+  border-style: dotted;
+} */
+
+.App{
+  
+}

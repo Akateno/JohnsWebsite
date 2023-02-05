@@ -1,0 +1,244 @@
+{
+   "ingridients": [
+                    {
+                        "name": "Briess Black Barley (1lb)",
+                        "price": 2.25,
+                        "description": "Roasted, coffee, burnt,  This grain provides color and rich, sharp flavor which is a characteristic in Stouts and some Porters. It may be used with Black Malt to brew a Stout with more color and less intense Roasted Barley flavor notes. You can use Chocolate Malt or Black Malt in combination with Roasted Barley to obtain desired color.",
+                        "categorie":"Dark Grains, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/06/Black-Malt.jpg?fit=970%2C1280&ssl=1",
+                        "color":"L",
+                        "volume":"550L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Briess Black Malt (1lb)",
+                        "price": 2.25,
+                        "description": "Dry roasted, sharp to neutral This malt is often used to provide color without overpowering flavor that is characteristic of European-style dark beers. It may be used with or without Roasted Barley to brew a Stout with more color and less intense Roasted Barley flavor notes, and it may be used with Chocolate Malt to produce a Porter with less pronounced chocolate flavor notes.",
+                        "categorie":"Dark Grains, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/06/Black-Malt.jpg?fit=970%2C1280&ssl=1",
+                        "color":"L",
+                        "volume":"500L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Briess BlackPrinz Malt (1lb)",
+                        "price": 2.25,
+                        "description": "Subtle, smooth, no bitter, astringent, dry flavors or aftertaste, very delicate, clean flavor, mild roasted malty flavor Produced from hulless barley and functions as a 1:1 replacement to debittered Black Malt, but with smoother flavor. It contributes the same color characteristics as Black Malt but without the bitter, astringent, dry flavors or aftertaste. Use in Black IPAs, Black Lagers, Black Ales, Schwarzbiers and other beers for deep, rich color with only hints of subtle roasted flavor, and for color adjustment in any beer style.",
+                        "categorie":"Dark Grains, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/06/Black-Malt.jpg?fit=970%2C1280&ssl=1",
+                        "color":"L",
+                        "volume":"500L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Briess Caramel Malt 10L (1lb)",
+                        "price": 2.25,
+                        "description": "Candy-like sweetness, mild caramel. This is a drum roasted crystallized malt that improves foam, enhances viscosity, and contributes golden hues with a candy-like sweetness. Briess Caramel Malts are roaster produced, making them the fullest flavored and best-performing Caramel Malts.",
+                        "categorie":"Caramel/Crystal Malt, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/05/C-10.jpeg?fit=1224%2C1224&ssl=1",
+                        "color":"L",
+                        "volume":"10L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Briess Caramel Malt 120L (1lb)",
+                        "price": 2.25,
+                        "description": "Pronounced caramel, burnt sugar, raisiny, prunes. This is a drum roasted crystallized malt that improves foam, enhances viscosity, and contributes golden hues with a candy-like sweetness. Briess Caramel Malts are roaster produced, making them the fullest flavored and best-performing Caramel Malts.",
+                        "categorie":"Caramel/Crystal Malt, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/05/C-120.jpeg?fit=480%2C480&ssl=1",
+                        "color":"L",
+                        "volume":"10L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Briess Caramel Malt 20L (1lb)",
+                        "price": 2.25,
+                        "description": "Candy-like sweetness, mild caramel. This is a drum roasted crystallized malt that improves foam, enhances viscosity, and contributes golden hues with a candy-like sweetness. Briess Caramel Malts are roaster produced, making them the fullest flavored and best-performing Caramel Malts.",
+                        "categorie":"Caramel/Crystal Malt, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/05/C-40.jpeg?fit=1224%2C1224&ssl=1",
+                        "color":"L",
+                        "volume":"20L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Briess Caramel Malt 40L (1lb)",
+                        "price": 2.25,
+                        "description": "Sweet, caramel, toffee. This is a drum roasted crystallized malt that improves foam, enhances viscosity, and contributes golden hues with a candy-like sweetness. Briess Caramel Malts are roaster produced, making them the fullest flavored and best-performing Caramel Malts.",
+                        "categorie":"Caramel/Crystal Malt, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/05/C-40.jpeg?fit=1224%2C1224&ssl=1",
+                        "color":"L",
+                        "volume":"40L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Briess Caramel Malt 60L (1lb)",
+                        "price": 2.25,
+                        "description": "Sweet, pronounced caramel. This is a drum roasted crystallized malt that improves foam, enhances viscosity, and contributes golden hues with a candy-like sweetness. Briess Caramel Malts are roaster produced, making them the fullest flavored and best-performing Caramel Malts.",
+                        "categorie":"Caramel/Crystal Malt, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/05/C-60.jpeg?fit=1224%2C1224&ssl=1",
+                        "color":"L",
+                        "volume":"60L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Briess Caramel Malt 80L (1lb)",
+                        "price": 2.25,
+                        "description": "Pronounced caramel, slight burnt sugar, raisiny. This is a drum roasted crystallized malt that improves foam, enhances viscosity, and contributes golden hues with a candy-like sweetness. Briess Caramel Malts are roaster produced, making them the fullest flavored and best-performing Caramel Malts.",
+                        "categorie":"Caramel/Crystal Malt, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/05/C-80.jpeg?fit=1223%2C1224&ssl=1",
+                        "color":"L",
+                        "volume":"80L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Briess Caramel Vienne Malt 20L (1lb)",
+                        "price": 2.25,
+                        "description": "Soft toffee, caramel, malty. This malt adds flavors unique to Vienna-style lagers and Belgian-style Abbey Ales. It has flavors reminiscent of traditional kiln made Caramels with subtle notes of sweet caramel and toffee complimented by sweet malty and bready notes.",
+                        "categorie":"Caramel/Crystal Malt, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/05/C20.jpeg?fit=1224%2C1224&ssl=1",
+                        "color":"L",
+                        "volume":"20L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Briess Carapils Malt (1lb)",
+                        "price": 2.25,
+                        "description": "No added flavor. This is a very unique dextrin-style malt that adds body, foam retention, and beer stability without influencing color or aroma. The non-fermentables in Carapils® Malt are advantageous in balancing body and flavor of dark-colored beers. It has the full glassiness of a Caramel Malt, and is devoid of enzymes, and can be steeped in hot water or mashed.",
+                        "categorie":"Caramel/Crystal Malt, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/05/CaraPils.jpeg?fit=1224%2C1223&ssl=1",
+                        "color":"L",
+                        "volume":"1.5L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    },  
+                    {
+                        "name": "Briess Cherry Wood Smoked Malt (1lb)",
+                        "price": 2.40,
+                        "description": "Pronounced smoke, subtle fruity, malty sweet, smooth, clean. This smoked malt is produced using cherry wood. It is a unique, enzyme-active specialty malt with a blend of pronounced smoke and subtle fruity flavor with malty sweetness that is surprisingly smooth and clean.",
+                        "categorie":"Flaked and Miscellaneous grains, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/05/Base-Grain-rotated.jpg?fit=1512%2C2016&ssl=1",
+                        "color":"L",
+                        "volume":"5L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Briess Chocolate Malt (1lb)",
+                        "price": 2.25,
+                        "description": "Rich roasted coffee, cocoa. The chocolate flavor of this malt is complementary when used in higher percentages. It can be used in all beer styles for color adjustment.",
+                        "categorie":"Dark Grains, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/06/Chocolate-Malt.jpg?fit=1080%2C1280&ssl=1",
+                        "color":"L",
+                        "volume":"350L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Briess Extra Special Malt (1lb)",
+                        "price": 2.25,
+                        "description": "Toasted marshmallow, toast, mild coffee, prunes, dry, woody. This is a hybrid drum roasted malt that is made using a proprietary drum roasting process that develops both caramel and dry roasted flavors. It provides richer, more complex flavors in lighter colored and lighter gravity beers that are often associated with darker, high gravity beers like Doppelbocks.",
+                        "categorie":"Flaked and Miscellaneous grains, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/05/C-60.jpeg?fit=1224%2C1224&ssl=1",
+                        "color":"L",
+                        "volume":"130L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Briess Midnight Wheat Malt (1lb)",
+                        "price": 2.25,
+                        "description": "Subtle, smooth, no bitter, astringent, dry flavors or aftertaste, starts slightly sweet, hints of roasted flavor. It contributes the same color characteristics as Black Malt but without the bitter, astringent, dry flavors or aftertaste. It finishes exceptionally clean and is the smoothest source of black color of any malt. It is excellent in Black IPAs, Schwarzbiers, other dark ales and lagers, and for color adjustment in any beer style.",
+                        "categorie":"Dark Grains, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/06/Midnight-Wheat.jpg?fit=1224%2C1632&ssl=1",
+                        "color":"L",
+                        "volume":"550L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    }, 
+                    {
+                        "name": "Briess Roasted Barley (1lb)",
+                        "price": 2.25,
+                        "description": "Coffee, intense, bitter, dry. This grain provides color and rich, sharp flavor which is a characteristic in Stouts and some Porters. It may be used with Black Malt to brew a Stout with more color and less intense Roasted Barley flavor notes. You can use Chocolate Malt or Black Malt in combination with Roasted Barley to obtain desired color.",
+                        "categorie":"Dark Grains, Grain, ingridients",
+                        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2021/06/Chocolate-Malt.jpg?fit=1080%2C1280&ssl=1",
+                        "color":"L",
+                        "volume":"300L",
+                        "additionalinfo":[
+                            {"weight": "1lb",
+                            "Grain Milled": "Yes & No"
+                            }
+                        ]
+                    }
+    ], 
+    "equipment":[
+        {
+        "name": "1.5″ TC Ball Valve",
+        "price": 46.00,
+        "categorie": "Equipment, TriClamp",
+        "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2022/07/TC-.75-Ball-Valve.jpg?fit=602%2C434&ssl=1",
+        "description":"● The Economy Style Tri-Clamp 2-piece Ball Valves are great at controlling flow rates.● In Brewing applications they are often used on pump outlets and on vessel returns for example in vorlauf returns and mash tun sparges. ● Better than Butterfly Valves for flow rate control. ● These Sanitary ball valves can be taken apart for cleaning and can be treated as a threaded ball valve and cleaned after each use. ● 90 degrees will completely shut off the flow, while anything in between will control the flow rate to various degrees. ● Being a full port design, they offer a full unobstructed flow that matches the line size.  Stainless Steel 304"
+        },
+        {
+            "name": "1.5″ TC Butterfly Valve, squeeze trigger.",
+            "price": 55.00,
+            "categorie": "Equipment, TriClamp",
+            "image":"https://i0.wp.com/jonshomebrew.com/wp-content/uploads/2022/07/TC-Butterfly-Valve.jpg?fit=625%2C418&ssl=1",
+            "description":"1.5″ Tri-Clover Butterfly Valve, Squeeze Trigger. Blue Plastic handle with Stainless Steel Trigger, and Silicone seal. Stainless Steel 304"
+            }
+    ]
+}

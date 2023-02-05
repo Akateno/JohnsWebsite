@@ -1,7 +1,17 @@
 
 import Badge from 'react-bootstrap/Badge'
+import Map from './Map' // import the map here
+
 
 function Contact(){
+
+    const location = {
+        address: '1430 E Main Ave #1430, Puyallup, WA 98372',
+        lat: 47.19260,
+        lng: -122.27484,
+      }
+      
+
 
     return(
         <div>
@@ -11,12 +21,9 @@ function Contact(){
         <p>Phone:  253-286-7607</p>
         <p>Email: <a href='jon@jonshomebrew.com'>jon@jonshomebrew.com</a> </p>
         <p>Orders: <a href='jon@jonshomebrew.com'>Order Now</a> </p>
-        <h1>
-    Example heading{' '}
-    <Badge bg="secondary" as="Button">
-      New
-    </Badge>
-  </h1>
+
+         <Map location={location} zoomLevel={11} /> 
+
         </div>
     )
 }
