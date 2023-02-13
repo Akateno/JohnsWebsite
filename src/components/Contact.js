@@ -14,7 +14,7 @@ function Contact(){
 
 
     return(
-        <div>
+        <div className='contactContainer'>
             <p>Adress: 1430 E Main Ave, #1430C Puyallup WA 98372</p>
         <p>Current Hours:  Monday-Friday 10am-6pm • Saturday 9am-5pm • Sunday 9am-2pm</p>
 

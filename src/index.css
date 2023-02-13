@@ -11,10 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.header{
+.Navbar{
   
-  margin:auto; 
+  margin:auto;
+  
 }
+.homeHeader{
+  background-image: url("wood.jpg");
+  color:whitesmoke;
+}
+.fillerDiv{
+  border-bottom-style: solid;
+  border-bottom-width:2ch;
+  border-color: darkslategrey;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  
+}
+.three{
+  width:100%;
+  
+}
+.YoutubeHeaders{
+  background-color:darkslategrey;
+  color:whitesmoke; 
+}
+.CompTitle{
+  background-color: darkslategrey;
+  color:whitesmoke;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
 .logo{
   display: block;
 
@@ -52,13 +91,22 @@ code {
   overflow: visible;
 }
 
-.homeContainer{
-  background-color: #F6c101;
-}
+
+
 .aboutContainer{
   padding-top: 5%;
   padding-right: 10%;
-  background-image: ("wood.png");
+  background-image: url("wood.jpg");
+  height: 100vh;
+  color: whitesmoke;
+}
+.aboutPage{
+  background-image: url("wood.jpg");
+}
+
+.contactContainer{
+  background-image: url("wood.jpg");
+  color:whitesmoke;
 }
 .video{
   border-radius: 3%;
@@ -126,6 +174,7 @@ code {
   border-style: dotted;
 } */
 
-.App{
-  
+.lagerImg{
+  max-width: 50%;
+  height: 200px;
 }

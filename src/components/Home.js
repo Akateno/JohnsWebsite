@@ -5,28 +5,65 @@ import WineMaker from '../WineMaker.jpeg';
 import Cascade from '../CascadeGuild.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import YoutubeEmbed from "./YoutubeEmbed";
+import Bottles from '../Bottles.jpg'
+import Hops from '../hops.jpg'
+import Beer from '../Beer.jpg'
+
 
 
 
 function Home() {
     return (
         <div className='homeContainer'>
-            {/* <img class ='logo' src={jlogo} alt ="website logo"></img>
-            {/* <h1>Jon's Homewbrew and Wine Supply</h1> */}
-            {/* <h4 class="text-center">1430 E Main Ave #1430C Puyallup WA 98372</h4>
-            <h4 class = "text-center">Call us!: 253-286-7607</h4>  */}
+
+            <div className="homeHeader" >
+                 <img class ='logo' src={jlogo} alt ="website logo"></img>
+             <h1>Find Ingridients, Starting Kits and Equipment</h1> 
+             
+            </div>
+            <div className='fillerDiv'></div>
+
+            <div class='row'>
+                <div class='column'>
+                    <img className ='three' src={Hops} alt ="website logo" />
+                </div>
+                <div class='column'>
+                    <img className ='three' src={Bottles} alt ="website logo" />
+                </div>
+                <div class='column'>
+                    <img className ='three' src={Beer} alt ="website logo"/>
+                </div>
+                
+               
+            </div>
             
+             {/* <h4 class="text-center">1430 E Main Ave #1430C Puyallup WA 98372</h4>
+            <h4 class = "text-center">Call us!: 253-286-7607</h4>   */}
+            
+
+            {/* <video tabindex="-1" class="video-stream html5-main-video" data-no-fullscreen="true" webkit-playsinline="" playsinline="" controlslist="nodownload" style="width: 2354px; height: 1324px; left: 0px; top: 60px;" src="blob:https://www.youtube-nocookie.com/f05c45b0-6778-4bcf-a4eb-f8dacb0c0771"></video> */}
+
+
+
+
+
+            <div className="YoutubeHeaders">
+                <h2>New to Brewing?</h2>
+                <h4>Follow us on Youtube to learn more!</h4>
+            </div>
             <div class ='wrapper'>
             <YoutubeEmbed embedId="s9WgjG2248E" class="home1"/>
-            <YoutubeEmbed embedId="SQJ_xFjewvc" class="home2"/>
+            <YoutubeEmbed embedId="SQJ_xFjewvc" class="home2"/> 
             </div>
 
 
 
             <div class='container'>
                 <div class="">
-
-                    <h2>Competitions</h2>
+                    <div className='CompTitle'>
+                        <h2>Competitions</h2>
+                    </div>
+                    
                     <div class="SheBrewLogo">
                          {/* <img class ='image' src={SheBrewLogo} alt ="SheBrewLogo" ></img> */}
                      </div>
@@ -101,7 +138,8 @@ function Home() {
 
 
 
-
+            <h6 class="text-center">1430 E Main Ave #1430C Puyallup WA 98372</h6>
+            <h6 class = "text-center">Call us!: 253-286-7607</h6>   
 
 
 

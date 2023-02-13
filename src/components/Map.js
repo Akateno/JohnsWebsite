@@ -22,11 +22,11 @@ function Map(){
 
     return (
      <div className="map" >
-    <h2 className="map-h2">Come Visit Us At Our Campus</h2>
+    
 
     <div className="google-map" class='mapContainer' >
       <GoogleMapReact
-        bootstrapURLKeys={{ key: '' }}
+        bootstrapURLKeys={{ key:  }}
         defaultCenter={location}
         defaultZoom={14}
         style={mapStyles}
@@ -47,4 +47,3 @@ function Map(){
 }
 
 export default Map;
-// AIzaSyB0cfQkH32CZhPR42YRB5UnZnLMONcSSZs

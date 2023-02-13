@@ -12,9 +12,10 @@ function Header(){
    
    
     return(
-        // <div>Hi</div>
-        
-      <div class='header '>
+       <div className='Navbar'>
+
+
+<div class='header'>
         <>
         <ul class = 'nav nav-tabs'   >
           <li role="presentation" ><Link to="/">Home</Link></li>
@@ -43,6 +44,10 @@ function Header(){
       </Routes>
         </> 
       </div>
+
+       </div>
+        
+      
     )
 }
 
