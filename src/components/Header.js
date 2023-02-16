@@ -6,6 +6,7 @@ import Shop from './Shop'
 import Recipes from './Recipes'
 import Home from './Home'
 import Posts from './Posts'
+import SlideShow from './SlideShow';
 function Header(){
 
 
@@ -24,6 +25,7 @@ function Header(){
           <li role="presentation"><Link to="/contact">Contact/Hours</Link></li>
           <li role="presentation"><Link to="/recipes">Recipes</Link></li>
           <li role="presentation"><Link to="/Posts">Blog</Link></li>
+          <li role="presentation"><Link to="/SlideShow">SlideShow</Link></li>
         </ul>
           {/* <p><Link to="/">Home</Link></p>
           <p><Link to="/about">About</Link></p>
@@ -39,6 +41,7 @@ function Header(){
           <Route path="/contact"  element={<Contact />} />
           <Route path="/recipes"  element={<Recipes />} />
           <Route path="/posts"  element={<Posts />} />
+          <Route path="/slideshow"  element={<SlideShow />} />
           <Route path="/"  element={<Home />}>
         </Route>
       </Routes>
