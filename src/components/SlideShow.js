@@ -7,27 +7,23 @@ import ingridientsPic from '../Images/ingridients.jpg'
 import recipePic from '../Images/recipes.jpg'
 import winePic from '../Images/wine.jpg'
 import miscellaneousPic from '../Images/miscellaneous.webp'
+import { useNavigate } from 'react-router-dom'
+import Shop from './Shop'
 
 function SlideShow(){
-
-
-
-
-    const categorieStyle = {
-        width:'100%',
-        height: '100%',
-        borderRadius:'10px',
-        backgroundPosition:'center',
-        backgroundSize:'cover',
-        backgroundImage:`url(${Hops})`,
-    };
-    const categorieContainer ={
-        display:'flex',
-        width: "300px",
-        height: "280px", 
-    }
-
-
+    // const categorieStyle = {
+    //     width:'100%',
+    //     height: '100%',
+    //     borderRadius:'10px',
+    //     backgroundPosition:'center',
+    //     backgroundSize:'cover',
+    //     backgroundImage:`url(${Hops})`,
+    // };
+    // const categorieContainer ={
+    //     display:'flex',
+    //     width: "300px",
+    //     height: "280px", 
+    // }
     
 const slides=[Bottles,Hops,Beer]
 const containerStyles = {
@@ -36,6 +32,12 @@ const containerStyles = {
     margin: "0 auto",
 };
 
+let navigate = useNavigate(); 
+  const routeChange = () =>{ 
+    let path = `/inventorylist`; 
+    navigate(path);
+  }
+
     return(
         <div>
             <h1 className="shopTitle">Everything You Need in One Place</h1>
@@ -43,14 +45,14 @@ const containerStyles = {
                 <ImageSlider slides={slides}/>
             </div>
             <div className='shoptitleDiv'>
-                <h1 className="shopSubtitle">Browse By Categorie</h1>
+                <h1 className="shopSubtitle" >Browse By Categorie</h1>
             </div>
             
             <div className='thing1'>
 
                 <div className='thing2'>
                     <img  className ="categoriePic" src = {ingridientsPic} alt="ingridients"/>
-                    <h3 className="linkText"><u>Ingridients</u></h3>
+                    <h3 onClick={routeChange} className="linkText"><u>Ingridients</u></h3>
                 </div>
                 <div className='thing2'>
                     <img className ="categoriePic" src = {equipmentPic} alt="equipment"/>

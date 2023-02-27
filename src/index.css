@@ -16,6 +16,7 @@ code {
   margin:auto;
   
 }
+/* HomePageCSS */
 .homeHeader{
   background-image: url("wood.jpg");
   color:whitesmoke;
@@ -50,10 +51,6 @@ code {
   clear: both;
   display: table;
 }
-
-
-
-
 .logo{
   display: block;
 
@@ -91,7 +88,7 @@ code {
   overflow: visible;
 }
 
-
+/* AboutPage */
 
 .aboutContainer{
   padding-top: 5%;
@@ -108,15 +105,13 @@ code {
   background-image: url("wood.jpg");
   color:whitesmoke;
 }
+
+/* ContactCSS */
 .video{
   border-radius: 3%;
   border-style: solid;
   border-color: whitesmoke;
 }
-
-
-
-
 .mapContainer{
   margin:auto;
   max-width: 50%;
@@ -148,7 +143,7 @@ code {
   overflow:auto;
   resize: both;
 } */
-
+/* SlideShow */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -282,13 +277,9 @@ color:whitesmoke;
 .shoptitleDiv{
   padding-top: 3%;
 }
-
-
-
-
-
-
-
+.linkText{
+  cursor: pointer;
+}
 .slideCards{
   padding: 5px;
   width: 200px;
@@ -310,40 +301,75 @@ color:whitesmoke;
 
 
 
-
-
-
-
-
-
-
-
-.card-img-top{
+.cardPicture{
  
-  height:300px;
-  width: 500px;
+  /* height:300px;
+  width: 500px; */
+
+
+ 
+ 
 }
 .card{
   display:flex;
-  justify-content: space-between;
+  
   padding: 3%;
+   height:400px;
+   width:100%; 
+  
 }
 .cardbody{
-  
+  width:60%;
 }
 .cardContainer{
   margin: auto;
- 
+  width:auto;
 }
 .card-title{
   display: inline-block;
 }
-.price{
+ .price{
   display: inline-block;
   float: right;
   font-size: 150%;
+} 
+
+
+.bigCard{
+  
+ display: flex;
+ flex-wrap: wrap;
+ 
+  
+  border-style: dashed;
+  gap:15px;
+  justify-content: center;
+  
+padding-top: 5%;
+  /* display:inline-flex; */
+  
+}
+.bodyCard{
+  border-style:groove;
+  width:400px;
+  height:400px;
+  
+  
+  
+  
+  
 }
 
+.cardPicture{
+width:100%;
+height:300px;
+object-fit: cover;
+}
+.btn {
+  
+  left:0;
+  bottom:0px;
+}
 
 
 
@@ -375,4 +401,32 @@ color:whitesmoke;
 
 .card-img-top{
   max-width: 100%;
+}
+
+/* SubcaterogieDivs */
+.subcategoriePic{
+  
+  max-width: 100%;
+  max-height: 80%;
+  
+}
+.subCatDiv1{
+display:flex;
+justify-content: center;
+gap:20px;
+padding-top: 3%;
+
+
+}
+.subCatDiv2{
+  width:300px;
+  height:250px;
+  flex: 1 1 1;
+  flex-basis: auto;
+  align-items: baseline;
+  border-style:solid;
+  text-align: center;
+  
+  
+ 
 }

@@ -7,6 +7,8 @@ import Recipes from './Recipes'
 import Home from './Home'
 import Posts from './Posts'
 import SlideShow from './SlideShow';
+import ShopCards from './ShopCards';
+import InventoryList from './InventoryList';
 function Header(){
 
 
@@ -42,6 +44,7 @@ function Header(){
           <Route path="/recipes"  element={<Recipes />} />
           <Route path="/posts"  element={<Posts />} />
           <Route path="/slideshow"  element={<SlideShow />} />
+          <Route path="/inventorylist"  element={<InventoryList />} />
           <Route path="/"  element={<Home />}>
         </Route>
       </Routes>
