@@ -37,15 +37,7 @@ function Home() {
                
             </div>
             
-             {/* <h4 class="text-center">1430 E Main Ave #1430C Puyallup WA 98372</h4>
-            <h4 class = "text-center">Call us!: 253-286-7607</h4>   */}
-            
-
-            {/* <video tabindex="-1" class="video-stream html5-main-video" data-no-fullscreen="true" webkit-playsinline="" playsinline="" controlslist="nodownload" style="width: 2354px; height: 1324px; left: 0px; top: 60px;" src="blob:https://www.youtube-nocookie.com/f05c45b0-6778-4bcf-a4eb-f8dacb0c0771"></video> */}
-
-
-
-
+        
 
             <div className="YoutubeHeaders">
                 <h2>New to Brewing?</h2>
@@ -57,55 +49,50 @@ function Home() {
             </div>
 
 
-
-            <div class='container'>
-                <div class="">
-                    <div className='CompTitle'>
+            <div className='CompTitle'>
                         <h2>Competitions</h2>
                     </div>
+            <div class='competitionsContainer'>
+                
+                
+                <div class="">
                     
-                    <div class="SheBrewLogo">
-                         {/* <img class ='image' src={SheBrewLogo} alt ="SheBrewLogo" ></img> */}
-                     </div>
-                     <img class ='SheBrewLogo' src={SheBrewLogo} alt ="SheBrewLogo" ></img>
+                    
+                    
+                     
 
                      <div class="">
+                            <img class ='SheBrewLogo' src={SheBrewLogo} alt ="SheBrewLogo" ></img>
                              <h5 >SheBrew Competition 2023 - Portland</h5>
                              <h6 >Window for entry drop off: 1/16/2023-2/17/2023</h6>
                              <h6 class="text-left">Competitoin Date: 2/26/23</h6>
                     </div>
-                    <div class="SheBrewLogo">
-                         {/* <img class ='image' src={SheBrewLogo} alt ="SheBrewLogo" ></img> */}
-                     </div>
-                     <img class ='SheBrewLogo' src={National} alt ="SheBrewLogo" ></img>
+
+
+                    
+                     
 
                      <div class="">
+                            <img class ='SheBrewLogo' src={National} alt ="SheBrewLogo" ></img>
                              <h5 >2023 National HomeBrew Competition</h5>
                              <h6 >Registration Open: 1/24/2023</h6>
                              <h6 class="text-left">Window for entries:TBD</h6>
                     </div>
 
-                    <div class="SheBrewLogo">
-                         {/* <img class ='image' src={SheBrewLogo} alt ="SheBrewLogo" ></img> */}
-                     </div>
-                     <img class ='SheBrewLogo' src={Cascade} alt ="SheBrewLogo" ></img>
+                   
+                     
 
                      <div class="">
+                            <img class ='SheBrewLogo' src={Cascade} alt ="SheBrewLogo" ></img>
                              <h5 >25th Cascade Brewers Cup</h5>
                              <h6 >Window for entries: 3/1/2023 – 3/17/2023  *Jon’s Homebrew and Wine Supply is a drop off location</h6>
                              <h6 class="text-left">Competition Date: 3/24/2023-3/26/2023</h6>
                     </div>
-
-
-
-
-
-                    <div class="SheBrewLogo">
-                         {/* <img class ='image' src={SheBrewLogo} alt ="SheBrewLogo" ></img> */}
-                     </div>
-                     <img class ='SheBrewLogo' src={WineMaker} alt ="SheBrewLogo" ></img>
+                    
+                     
 
                      <div class="">
+                             <img class ='SheBrewLogo' src={WineMaker} alt ="SheBrewLogo" ></img>
                              <h5 >2023 Winemaker International Ameteur Wine Competition - Wine</h5>
                              <h6 >Entry Deadline: 3/17/2023</h6>
                              <h6 class="text-left">Competition Date: 4/21/2023 – 4/23/2023</h6>

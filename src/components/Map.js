@@ -26,7 +26,7 @@ function Map(){
 
     <div className="google-map" class='mapContainer' >
       <GoogleMapReact
-        bootstrapURLKeys={{ key: }}
+        bootstrapURLKeys={{ key: '' }}
         defaultCenter={location}
         defaultZoom={14}
         style={mapStyles}

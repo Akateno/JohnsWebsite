@@ -15,14 +15,20 @@ function Contact(){
 
     return(
         <div className='contactContainer'>
-            <p>Adress: 1430 E Main Ave, #1430C Puyallup WA 98372</p>
-        <p>Current Hours:  Monday-Friday 10am-6pm • Saturday 9am-5pm • Sunday 9am-2pm</p>
+             
+            <div className='contactCard'>
+               <h3>Address: 1430 E Main Ave, #1430C Puyallup WA 98372</h3>
+                <h5>Current Hours:  Monday-Friday 10am-6pm • Saturday 9am-5pm • Sunday 9am-2pm</h5>
 
-        <p>Phone:  253-286-7607</p>
-        <p>Email: <a href='jon@jonshomebrew.com'>jon@jonshomebrew.com</a> </p>
-        <p>Orders: <a href='jon@jonshomebrew.com'>Order Now</a> </p>
-
-         <Map location={location} zoomLevel={11} /> 
+                <h5>Phone:  253-286-7607</h5>
+                <h5>Email: <a href='jon@jonshomebrew.com'>jon@jonshomebrew.com</a> </h5>
+                <h5>Orders: <a href='jon@jonshomebrew.com'>Order Now</a> </h5>
+            </div>
+            
+            <div>
+                <Map location={location} zoomLevel={11} /> 
+            </div>
+         
 
         </div>
     )
