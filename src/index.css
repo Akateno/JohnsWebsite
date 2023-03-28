@@ -378,10 +378,6 @@ color:whitesmoke;
  
   /* height:300px;
   width: 500px; */
-
-
- 
- 
 }
 .card{
   display:flex;
@@ -499,7 +495,19 @@ padding-top: 3%;
   align-items: baseline;
   border-style:solid;
   text-align: center;
+
+ 
+}
+
+/* recipes */
+
+.recipeContainer{
   
-  
+}
+.recipeTitle{
+  font-size:300%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 1%;
  
 }

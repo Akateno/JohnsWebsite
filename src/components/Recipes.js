@@ -29,12 +29,16 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
 
     return(
         <div>
-           
+         <h1 className="recipeTitle">Recipes</h1>
 
             <div class="row text-center">
-            <h3>Light and Blonde Ale</h3>
+            <h3 >Light and Blonde Ale</h3>
+            <div >
+
+               
+            </div>
                 <div class="col-md-6">
-                        <ul>
+                        <ul class="p-3 mb-2 bg-info text-white rounded">
                         <h4>
                         <a href={BankersBrew} without rel="noopener noreferrer" target="_blank"> Bankers Brew </a>
                         </h4>
@@ -55,10 +59,13 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
                         </h4>  
                          </ul>
                 </div>
-                     <div class="col-md-6">
+                     <span class="border-bottom">
+                        <div class="col-md-6 border">
                         <img alt="lager" src={LightandBlonde} className="lagerImg"/>
                         
                      </div>
+                     </span>
+                     
             </div>
 
 
@@ -67,7 +74,7 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
                 <h3>Lagers</h3>
                 <div class="col-md-6">
                     
-                        <ul>
+                        <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
                         <a href={CelebratorDoppelbock} without rel="noopener noreferrer" target="_blank"> CelebratorDoppelbock </a>
                         </h4>
@@ -93,14 +100,14 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
                 </div>
                      <div class="col-md-6">
                         <img alt="lager" src={lagerImg} className="lagerImg"/>
-                        <h3>Ale</h3>
+                        
                      </div>
             </div>
 
             <div class="row text-center">
                 <h3>Pale Ale</h3>
                 <div class="col-md-6">
-                        <ul>
+                        <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
                         <a href={JonPaleAle} without rel="noopener noreferrer" target="_blank"> Jon's Pale Ale </a>
                         </h4>
@@ -130,7 +137,7 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
             <div class="row text-center">
                 <h3>Amber Ale</h3>
                 <div class="col-md-6">
-                        <ul>
+                        <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
                         <a href={AlaskanAmber} without rel="noopener noreferrer" target="_blank"> Alaskan Amber </a>
                         </h4>
@@ -155,7 +162,7 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
             <div class="row text-center">
                 <h3>IPA</h3>
                 <div class="col-md-6">
-                        <ul>
+                        <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
                         <a href={BarkAtTheMoon} without rel="noopener noreferrer" target="_blank"> bark at the Moon CDA </a>
                         </h4>
@@ -206,7 +213,7 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
             <div class="row text-center">
                 <h3>Brown</h3>
                 <div class="col-md-6">
-                        <ul>
+                        <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
                         <a href={BodhiBrownAle} without rel="noopener noreferrer" target="_blank"> Bodhi Brown</a>
                         </h4>
@@ -231,7 +238,7 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
             <div class="row text-center">
                 <h3>Porter</h3>
                 <div class="col-md-6">
-                        <ul>
+                        <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
                         <a href={AnchorPorter} without rel="noopener noreferrer" target="_blank"> Anchor Porter </a>
                         </h4>
@@ -256,7 +263,7 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
             <div class="row text-center">
                 <h3>Stout</h3>
                 <div class="col-md-6">
-                        <ul>
+                        <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
                         <a href={BreakfastStout} without rel="noopener noreferrer" target="_blank"> Breakfast Stout-Larry Brewing Supply Recipe </a>
                         </h4>
@@ -281,7 +288,7 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
             <div class="row text-center">
                 <h3>Wheat</h3>
                 <div class="col-md-6">
-                        <ul>
+                        <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
                         <a href={AventinusWheatDoppelBock} without rel="noopener noreferrer" target="_blank"> Aventinuys WHeat Doppelbock </a>
                         </h4>
@@ -307,7 +314,7 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
             <div class="row text-center">
                 <h3>Belgian</h3>
                 <div class="col-md-6">
-                        <ul>
+                        <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
                         <a href={BelgianWinter} without rel="noopener noreferrer" target="_blank"> Belgian Winter </a>
                         </h4>
@@ -334,7 +341,7 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
             <div class="row text-center">
                 <h3>Rye</h3>
                 <div class="col-md-6">
-                        <ul>
+                        <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
                         <a href={PokeYourRyeOut} without rel="noopener noreferrer" target="_blank"> Poke Your Rye Out IPA </a>
                         </h4>      
@@ -349,7 +356,7 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
             <div class="row text-center">
                 <h3>Strong Ale</h3>
                 <div class="col-md-6">
-                        <ul>
+                        <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
                         <a href={ArrogantBastard} without rel="noopener noreferrer" target="_blank"> Arrorgant Bastard </a>
                         </h4>
@@ -370,7 +377,7 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
             <div class="row text-center">
                 <h3>Exotic</h3>
                 <div class="col-md-6">
-                        <ul>
+                        <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
                         <a href={LilYuleLog} without rel="noopener noreferrer" target="_blank">Lil Yule Log </a>
                         </h4>
@@ -391,7 +398,7 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
             <div class="row text-center">
                 <h3>Mead</h3>
                 <div class="col-md-6">
-                        <ul>
+                        <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
                         <a href={OneGallonMead} without rel="noopener noreferrer" target="_blank"> 1 Gallon Plain Mead </a>
                         </h4>
