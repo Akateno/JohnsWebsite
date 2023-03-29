@@ -17,7 +17,7 @@ function InventoryList() {
             <div className='subCatDiv1'>
                 <div className='subCatDiv2'>
                     <img className ="subcategoriePic" src = {grain} alt="equipment"/>
-                    <h3 ><u>Grain</u></h3>
+                    <h3 className='grainCategory' ><u>Grain</u></h3>
                 </div>
                 <div className='subCatDiv2'>
                     <img className ="subcategoriePic" src = {maltextract} alt="equipment"/>
@@ -35,21 +35,6 @@ function InventoryList() {
                     <h3 ><u>Hops</u></h3>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
-
           <div className='bigCard'>
              {inventory.ingridients.map((ing) => (
         <ShopCards

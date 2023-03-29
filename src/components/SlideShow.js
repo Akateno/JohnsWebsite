@@ -38,8 +38,10 @@ let navigate = useNavigate();
     navigate(path);
   }
 
+
+
     return(
-        <div>
+        <div className="shopContainer">
             <h1 className="shopTitle">Everything You Need in One Place</h1>
             <div style={containerStyles}>
                 <ImageSlider slides={slides}/>
@@ -48,43 +50,38 @@ let navigate = useNavigate();
                 <h1 className="shopSubtitle" >Browse By Categorie</h1>
             </div>
             
-            <div className='thing1'>
 
+
+
+            <div className='thing1'>
                 <div className='thing2'>
                     <img  className ="categoriePic" src = {ingridientsPic} alt="ingridients"/>
                     <h3 onClick={routeChange} className="linkText"><u>Ingridients</u></h3>
                 </div>
                 <div className='thing2'>
                     <img className ="categoriePic" src = {equipmentPic} alt="equipment"/>
-                    <h3 className="linkText"><u>Equipment</u></h3>
+                    <h3  onClick={routeChange} className="linkText"><u>Equipment</u></h3>
                 </div>
                 <div className='thing2'>
                     <img className ="categoriePic" src = {recipePic} alt="recipes"/>
-                    <h3 className="linkText"><u>Recipes</u></h3>
+                    <h3 onClick={routeChange} className="linkText"><u>Recipes</u></h3>
                 </div>
-                
-                
-               
             </div>
 
 
             <div className='thing1'>
-
                 <div className='thing2'>
                     <img  className ="categoriePic" src = {winePic} alt="wine"/>
-                    <h3 className="linkText"><u>Wine Supplies</u></h3>
+                    <h3 onClick={routeChange} className="linkText"><u>Wine Supplies</u></h3>
                 </div>
                 <div className='thing2'>
                     <img className ="categoriePic" src = {miscellaneousPic} alt="misc"/>
-                    <h3 className="linkText"><u>Miscellaneous</u></h3>
+                    <h3  onClick={routeChange}className="linkText"><u>Miscellaneous</u></h3>
                 </div>
                 <div className='thing2'>
                     <img className ="categoriePic" src = {Hops} alt="books"/>
-                    <h3 className="linkText"><u>Books</u></h3>
+                    <h3 onClick={routeChange} className="linkText"><u>Books</u></h3>
                 </div>
-                
-                
-               
             </div>
 
 

@@ -18,7 +18,11 @@ function ShopCards ({id,name,price,description,categorie,image,volume,additional
                                     <p class="price">${price} </p>
                                     
                                 </div>
-                                <button  class="btn btn-primary">Add Cart</button>
+                                <div className="cardButton">
+                                    <button  class="btn btn-primary">Add Cart</button>
+                                   
+                                </div>
+                                
                             </div>
                     
                       

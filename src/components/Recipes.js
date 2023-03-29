@@ -13,6 +13,10 @@ import Wheat from '../Wheat.jpeg'
 import Belgian from '../Belgian.jpg'
 import Rye from '../Rye.webp'
 import Strong from '../strong.webp'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+   faBeer
+ } from "@fortawesome/free-brands-svg-icons";
 
 
 
@@ -31,12 +35,10 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
         <div>
          <h1 className="recipeTitle">Recipes</h1>
 
-            <div class="row text-center">
-            <h3 >Light and Blonde Ale</h3>
-            <div >
 
-               
-            </div>
+            <div class="row text-center">
+            <div className="recipe1">
+                <h3 >Light and Blonde Ale</h3>
                 <div class="col-md-6">
                         <ul class="p-3 mb-2 bg-info text-white rounded">
                         <h4>
@@ -59,19 +61,22 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
                         </h4>  
                          </ul>
                 </div>
-                     <span class="border-bottom">
+                      <span class="border-bottom">
                         <div class="col-md-6 border">
-                        <img alt="lager" src={LightandBlonde} className="lagerImg"/>
-                        
-                     </div>
-                     </span>
+                            <img alt="lager" src={LightandBlonde} className="lagerImg"/>
+                         </div>
+                      </span>
                      
             </div>
+            </div>
+               
 
 
-
+            
+               
             <div class="row text-center">
-                <h3>Lagers</h3>
+               <div className="recipe1" >
+                  <h3>Lagers</h3>
                 <div class="col-md-6">
                     
                         <ul class="p-3 mb-2 bg-info text-white">
@@ -102,10 +107,20 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
                         <img alt="lager" src={lagerImg} className="lagerImg"/>
                         
                      </div>
+
+               </div>
+                
+
+
+
+
             </div>
 
+            
+           
             <div class="row text-center">
-                <h3>Pale Ale</h3>
+               <div className="recipe1">
+                  <h3>Pale Ale</h3>
                 <div class="col-md-6">
                         <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
@@ -132,10 +147,13 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
                         <img alt="lager" src={PaleAle} className="lagerImg"/>
                         
                      </div>
+               </div>
+                
             </div>
 
             <div class="row text-center">
-                <h3>Amber Ale</h3>
+               <div className="recipe1">
+                   <h3>Amber Ale</h3>
                 <div class="col-md-6">
                         <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
@@ -157,10 +175,13 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
                         <img alt="lager" src={AmberAle} className="lagerImg"/>
                         
                      </div>
+               </div>
+               
             </div>
 
             <div class="row text-center">
-                <h3>IPA</h3>
+               <div className="recipe1">
+                  <h3>IPA</h3>
                 <div class="col-md-6">
                         <ul class="p-3 mb-2 bg-info text-white">
                         <h4>
@@ -208,6 +229,8 @@ const items = {CelebratorDoppelbock,AnchorSteam,Hutchweizer,Meisterburger,PilsBa
                         <img alt="lager" src={IPA} className="lagerImg"/>
                         
                      </div>
+               </div>
+                
             </div>
 
             <div class="row text-center">
